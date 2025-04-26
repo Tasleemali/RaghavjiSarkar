@@ -48,7 +48,7 @@ const Gallery = () => {
         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4'>
          {gallery.map((glry ,idx )=> 
             <div key={idx} className=' aspect-ratio-[3/4] '>
-            <img src={glry} className='w-full h-60  object-cover rounded-xs rounded-bl-4xl rounded-tr-4xl '/>
+            <img src={glry} className='w-full h-60  object-cover rounded-xs rounded-md '/>
           </div>
         )}
 
