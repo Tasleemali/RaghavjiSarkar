@@ -110,12 +110,6 @@ const About = () => {
             </p>
           </div>
 
-          <div className="space-y-6">
-            <h3 className="text-2xl nd:text-3xl font-semibold">Dining Experience</h3>
-            <p className="text-lg leading-relaxed">
-              Savor the finest Indian and international cuisines crafted by our master chefs. Our restaurant promises to delight your taste buds with every bite.
-            </p>
-          </div>
 
           <div className="space-y-6">
             <h3 className="text-2xl nd:text-3xl font-semibold">Our Services</h3>
