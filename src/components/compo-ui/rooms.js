@@ -42,7 +42,7 @@ const Rooms = () => {
                     <div key={idx}>
                         <img src={rom.image} className='w-full h-52 object-cover rounded-sm'/>
                         <div>
-                            <h1 className='font-semibold'>{rom.name}</h1>
+                            <h1 className='font-semibold text-lg'>{rom.name}</h1>
                             <p className=''>₹{rom.price}</p>
                             
                         </div>
