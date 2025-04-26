@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 import { useRouter } from "next/navigation";
 
-import { Player } from "@lottiefiles/react-lottie-player";
+
 
 export default function AllRooms() {
   const [rooms, setRooms] = useState([]);
