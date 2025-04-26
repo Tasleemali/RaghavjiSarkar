@@ -28,7 +28,7 @@ const Gallery = () => {
           </div>
           <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4'>
             {Array(8).fill(null).map((_, idx) => (
-              <div key={idx} className='aspect-[4/4] bg-gray-300 rounded-md h-60'></div>
+              <div key={idx} className='aspect-[3/4] bg-gray-300 rounded-md h-60'></div>
             ))}
           </div>
 
