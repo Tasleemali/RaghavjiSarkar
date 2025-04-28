@@ -1,10 +1,11 @@
 'use client'
 import Link from 'next/link'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { useRouter } from 'next/navigation'
+import { GlobaleContext } from '@/context';
 
 const Rooms = () => {
-  const [rooms, setRooms] = useState([]);
+ const {rooms, setRooms} = useContext(GlobaleContext)
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
@@ -71,4 +72,5 @@ const Rooms = () => {
 };
 
 export default Rooms;
+
 
