@@ -1,9 +1,10 @@
 'use client';
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { GlobaleContext } from "@/context";
 
 export default function AllRooms() {
-  const [rooms, setRooms] = useState([]);
+  const {rooms, setRooms} = useContext(GlobaleContext)
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
