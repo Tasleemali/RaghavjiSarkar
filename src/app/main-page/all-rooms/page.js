@@ -65,11 +65,11 @@ export default function AllRooms() {
                 <h1 className="font-semibold text-lg">{rom.name}</h1>
                 <p>{rom.desc}</p>
                 <p>₹{rom.price}</p>
-                {rom.quantity > 0 && (
+                
                   <button className="mt-2 px-3 py-1 border-2 border-[#6b0f1a] rounded-md hover:text-[#fefae0] hover:bg-[#6b0f1a]">
                     Book now
                   </button>
-                )}
+              
               </div>
             </div>
           ))}
